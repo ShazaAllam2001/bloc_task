@@ -1,16 +1,25 @@
 # bloc_task
 
-A new Flutter project.
+Link for Repo [link](https://github.com/ShazaAllam2001/bloc_task)
 
-## Getting Started
+Task for practicing Bloc concepts using Flutter package [flutter_bloc](https://pub.dev/packages/flutter_bloc)
 
-This project is a starting point for a Flutter application.
+## Description of App:
+Counter App that incerements and decrements a value on the screen using Plus and Minus button. It has the ability to change the theme from light to dark and vice versa.
 
-A few resources to get you started if this is your first Flutter project:
+## Blocs Used:
+- **CounterBloc**
+It has **counter_bloc**, **counter_event** (Two events: Inecrement and Decrement) and **counter_state** 
+- **ThemeBloc**
+It has **theme_bloc**, **theme_event** (Two events: Light and Dark) and **ThemeMode** as theme_state
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Widgets Used:
+- **BlocBuilder**
+wrapped around the **MaterialApp** to toggle theme
+- **BlocListener**
+wrapped around the **home scaffold** to show snack bar when toggling theme
+- **BlocConsumer**
+wrapped around the **counter text** to show snack bar when reaching 10 or -10
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Output Screenshots and Video:
+[Output Folder](https://github.com/ShazaAllam2001/bloc_task/tree/main/output)
