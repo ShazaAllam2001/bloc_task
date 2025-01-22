@@ -8,17 +8,17 @@ Task for practicing Bloc concepts using Flutter package [flutter_bloc](https://p
 Counter App that incerements and decrements a value on the screen using Plus and Minus button. It has the ability to change the theme from light to dark and vice versa.
 
 ## Blocs Used:
-- **CounterBloc**
+- __**CounterBloc**__
 It has **counter_bloc**, **counter_event** (Two events: Inecrement and Decrement) and **counter_state** 
-- **ThemeBloc**
+- __**ThemeBloc**__
 It has **theme_bloc**, **theme_event** (Two events: Light and Dark) and **ThemeMode** as theme_state
 
 ## Widgets Used:
-- **BlocBuilder**
+- __**BlocBuilder**__
 wrapped around the **MaterialApp** to toggle theme
-- **BlocListener**
+- __**BlocListener**__
 wrapped around the **home scaffold** to show snack bar when toggling theme
-- **BlocConsumer**
+- __**BlocConsumer**__
 wrapped around the **counter text** to show snack bar when reaching 10 or -10
 
 ## Output Screenshots and Video:
